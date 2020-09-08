@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-bloque1",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto de nodejs)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D(node js)",
+  "main": "index.html\u001b",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camora1990/proyecto-bloque1.git"
+  },
+  "author": "Camilo Morales Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camora1990/proyecto-bloque1/issues"
+  },
+  "homepage": "https://github.com/camora1990/proyecto-bloque1#readme"
+}
