@@ -20,6 +20,33 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="">Guia de hotes</a>
+      <!-- data toggle especifica como va ser el comportamiento que se quiere dar -->
+      <!-- data-target especifica quien es el que va activar la accion de data toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Precios</a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Terminos y condiciones</a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="jumbotron">
       <h1>Hoteles</h1>
     </div>
@@ -49,45 +76,45 @@
           </p>
         </div>
       </div>
-      <div class="d-flex flex-wrap flex-row-reverse">
+      <div class="d-flex flex-wrap">
         <div class="card-hotel">
           <h4>Hotel numero 1</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
         <div class="card-hotel">
           <h4>Hotel numero 2</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div> <div class="card-hotel">
           <h4>Hotel numero 3</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div> 
         <div class=" card-hotel">
           <h4>Hotel numero 4</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
         <div class=" card-hotel">
           <h4>Hotel numero 5</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
         <div class=" card-hotel">
           <h4>Hotel numero 6</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
         <div class=" card-hotel">
           <h4>Hotel numero 7</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
         <div class=" card-hotel">
           <h4>Hotel numero 8</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint perspiciatis eligendi alias.</p>
-          <button class="b btn-primary btn-reserva">Reserva</button>
+          <button class="b btn-primary btn-reserva">Reservar</button>
         </div>
       </div>
     </div>
@@ -126,9 +153,9 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script
-      src="node_modules/popper.js/dist/popper-utils.min.js"
+    src="node_modules/popper.js/dist/popper-utils.min.js"
       crossorigin="anonymous"
     ></script>
-    <script src="node_modules/bootstrap/js/dist/button.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
