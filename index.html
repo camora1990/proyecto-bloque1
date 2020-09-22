@@ -59,36 +59,57 @@
   </div>
   <div class="container">
 
-    <div class="row">
-      <div class="col-sm-4">
-        <p>
-        <h3>¿Como funciona?</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-          consectetur
-        </p>
-        </p>
+    
+      <div class="accordion" id="data-seccion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#como-funciona" aria-expanded="true" aria-controls="como-funciona">
+                ¿Como funciona?
+              </button>
+            </h2>
+          </div>
+      
+          <div id="como-funciona" class="collapse show" aria-labelledby="headingOne" data-parent="#data-seccion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+              consectetur
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#donde-reservar" aria-expanded="false" aria-controls="donde-reservar">
+                ¿Donde puedo reservar?
+              </button>
+            </h2>
+          </div>
+          <div id="donde-reservar" class="collapse" aria-labelledby="headingTwo" data-parent="#data-seccion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+              consectetur
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#como-pago" aria-expanded="false" aria-controls="como-pago">
+                ¿Como Pago?
+              </button>
+            </h2>
+          </div>
+          <div id="como-pago" class="collapse" aria-labelledby="headingThree" data-parent="#data-seccion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+              consectetur
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <p>
-        <h3>¿Donde puedo reservar?</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-          consectetur
-        </p>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-        <h3>¿Como Pago?</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-          consectetur
-        </p>
-        </p>
-      </div>
-    </div>
-    <img src="images/banner.jpg" class="img-fluid" alt="">
+   
+    <img src="images/banner.jpg" class="img-fluid mt-3" alt="">
     <div class="border-top d-flex flex-wrap">
       <div class="card card-hotel m-2">
         <div class="card-header">
