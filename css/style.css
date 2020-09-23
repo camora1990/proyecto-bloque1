@@ -37,6 +37,7 @@ a{
   justify-content: space-between;
 }
 
+
 .footer-adress-icon{
  margin-right: 10px;
 }
@@ -56,5 +57,10 @@ footer{
 .table-star{
   color: #FDBA11;
 }
-.card{
+.card, .section-data{
 box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);}
+
+.tarjetas{
+  min-width: 230px;
+  width: 100%;
+}
