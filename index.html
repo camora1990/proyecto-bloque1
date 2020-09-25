@@ -58,56 +58,59 @@
     </nav>
   </div>
   <div class="container">
-  
-      <div class="section-data accordion" id="data-seccion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#como-funciona" aria-expanded="true" aria-controls="como-funciona">
-                ¿Como funciona?
-              </button>
-            </h2>
-          </div>
-      
-          <div id="como-funciona" class="collapse show" aria-labelledby="headingOne" data-parent="#data-seccion">
-            <div class="card-body">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-              consectetur
-            </div>
-          </div>
+
+    <div class="section-data accordion" id="data-seccion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#como-funciona" aria-expanded="true" aria-controls="como-funciona">
+              ¿Como funciona?
+            </button>
+          </h2>
         </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#donde-reservar" aria-expanded="false" aria-controls="donde-reservar">
-                ¿Donde puedo reservar?
-              </button>
-            </h2>
-          </div>
-          <div id="donde-reservar" class="collapse" aria-labelledby="headingTwo" data-parent="#data-seccion">
-            <div class="card-body">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-              consectetur
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#como-pago" aria-expanded="false" aria-controls="como-pago">
-                ¿Como Pago?
-              </button>
-            </h2>
-          </div>
-          <div id="como-pago" class="collapse" aria-labelledby="headingThree" data-parent="#data-seccion">
-            <div class="card-body">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
-              consectetur
-            </div>
+
+        <div id="como-funciona" class="collapse show" aria-labelledby="headingOne" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
           </div>
         </div>
       </div>
-   
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#donde-reservar" aria-expanded="false" aria-controls="donde-reservar">
+              ¿Donde puedo reservar?
+            </button>
+          </h2>
+        </div>
+        <div id="donde-reservar" class="collapse" aria-labelledby="headingTwo" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#como-pago" aria-expanded="false" aria-controls="como-pago">
+              ¿Como Pago?
+            </button>
+          </h2>
+        </div>
+        <div id="como-pago" class="collapse" aria-labelledby="headingThree" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
+          </div>
+        </div>
+      </div>
+    </div>
+
     <img src="images/banner.jpg" class="img-fluid mt-3" alt="">
     <div class="border-top d-flex flex-wrap">
       <div class="card card-hotel m-2">
@@ -118,10 +121,11 @@
         <img class="card-img-top" src="images/images.jpg" alt="">
         <div class="card-body">
           <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
-          </div>
-          <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
       <div class="card card-hotel m-2">
         <div class="card-header">
@@ -131,11 +135,12 @@
         <img class="card-img-top" src="images/187027456.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 2</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
       <div class="card card-hotel m-2">
         <div class="card-header">
@@ -146,11 +151,12 @@
         <img class="card-img-top" src="images/129200126.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 3</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
       <div class="card card-hotel m-2">
         <div class="card-header">
@@ -160,11 +166,12 @@
         <img class="card-img-top" src="images/162597648.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 4</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
       <div class="card card-hotel m-2">
         <div class="card-header">
@@ -173,11 +180,12 @@
         <img class="card-img-top" src="images/223830253.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 5</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
       <div class="card card-hotel m-2">
         <div class="card-header">
@@ -186,38 +194,44 @@
         <img class="card-img-top" src="images/29497610.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 6</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
-      </div><div class="card card-hotel m-2">
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
         <div class="card-header">
           Colombia
         </div>
         <img class="card-img-top" src="images/78562806.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 7</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
-      </div><div class="card card-hotel m-2">
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
         <div class="card-header">
           Colombia
         </div>
         <img class="card-img-top" src="images/cab49292e6b8c45022642f07de4613b7.jpg" alt="">
 
         <div class="card-body">
-          <h4 class="card-title">Hotel numero 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et, obcaecati laborum sint
+          <h4 class="card-title">Hotel numero 8</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
             perspiciatis eligendi alias.</p>
         </div>
-        <button class="b btn-primary btn-reserva"><span class="oi oi-check"></span>Reservar</button>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span class="oi oi-check"></span>Reservar</button>
       </div>
     </div>
   </div>
+
   <footer>
     <div class="row">
       <div class="col-sm-4 d-flex justify-content-center align-items-center">
@@ -249,7 +263,36 @@
         <a href="">Contacto</a>
       </div>
   </footer>
+
+  <div class="modal fade modal-form" id="contacto" role="dialog" tabindex="-1" aria-labelledby="modalForm" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalForm">Contacto hotel</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Tu emal:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Mensaje:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
   </div>
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
