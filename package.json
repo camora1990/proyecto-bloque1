@@ -5,7 +5,8 @@
   "main": "index.html\u001b",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/camora1990/proyecto-bloque1#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
