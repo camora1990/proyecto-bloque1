@@ -1,7 +1,8 @@
 $color-primario: #5151E5;
 $color-secundario: #72EDF2;
 $color-claro: #fff;
-$color-estrella:#FDBA11;
+$color-estrella:#FDBA12;
+
 
 @mixin linera-gradiente($color1,$color2) {
   background-image: linear-gradient( 135deg, $color1 10%, $color2 100%);
