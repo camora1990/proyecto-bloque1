@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <script src="https://kit.fontawesome.com/90cf718084.js" crossorigin="anonymous"></script>
 
-  <!-- build:css dist/index.css -->
+  <!-- build:css dist/css/index.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -47,7 +47,7 @@
     </div>
   </nav>
   <div class="jumbotron d-flex justify-content-between">
-    <h1>Hoteles</h1>
+    <h1>Hoteles </h1>
     <button type="button" class="btn btn-primary">
       Mis reservas <span class="badge badge-light">9</span>
       <span class="sr-only">unread messages</span>
@@ -391,46 +391,11 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   
-  <!-- build:js dist/index.js -->
+  <!-- build:js dist/js/index.js -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    $(function () {
-      $("[data-toggle='tooltip']").tooltip();
-      $('[data-toggle="popover"]').popover();
-      $('.carousel').carousel({
-        interval:2500
-      })
-
-      $('#contacto').on('show.bs.modal',function(e){
-      console.log('modal se esta mostrando');
-      $('#contactoBtn').prop('disabled', true);
-      $('#contactoBtn').removeClass('btn-primary')
-      $('#contactoBtn').addClass('btn-dark')
-
-      });
-      $('#contacto').on('shown.bs.modal',function(e){
-      console.log('modal se mostro')
-      });  
-       $('#contacto').on('hide.bs.modal',function(e){
-      console.log('modal se esta ocultando')
-      });
-      
-      $('#contacto').on('hidden.bs.modal',function(e){
-      console.log('modal se oculto')
-      $('#contactoBtn').prop('disabled', false);
-      $('#contactoBtn').removeClass('btn-dark')
-      $('#contactoBtn').addClass('btn-primary')
-
-      });
-      
-      $('#contacto').on('hidePrevented.bs.modal',function(e){
-      console.log('modal se oculto con esc')
-      });
-    });
-    
-  </script>
+  <script src="js/index.js"></script>
 <!-- endbuild -->
 
 </body>
