@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <script src="https://kit.fontawesome.com/90cf718084.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="dist/index.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="">Guia de hotes</a>
+    <!-- data toggle especifica como va ser el comportamiento que se quiere dar -->
+    <!-- data-target especifica quien es el que va activar la accion de data toggle -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" id="">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="./about.html">Nosotros</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/precios.html">Precios</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Terminos y condiciones</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron d-flex justify-content-between">
+    <h1>Hoteles</h1>
+    <button type="button" class="btn btn-primary">
+      Mis reservas <span class="badge badge-light">9</span>
+      <span class="sr-only">unread messages</span>
+    </button>
+  </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">home</li>
+      </ol>
+    </nav>
+  </div>
+  <div class="container">
+
+    <div class="section-data accordion" id="data-seccion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#como-funciona" aria-expanded="true" aria-controls="como-funciona">
+              ¿Como funciona?
+            </button>
+          </h2>
+        </div>
+
+        <div id="como-funciona" class="collapse show" aria-labelledby="headingOne" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#donde-reservar" aria-expanded="false" aria-controls="donde-reservar">
+              ¿Donde puedo reservar?
+            </button>
+          </h2>
+        </div>
+        <div id="donde-reservar" class="collapse" aria-labelledby="headingTwo" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#como-pago" aria-expanded="false" aria-controls="como-pago">
+              ¿Como Pago?
+            </button>
+          </h2>
+        </div>
+        <div id="como-pago" class="collapse" aria-labelledby="headingThree" data-parent="#data-seccion">
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, reprehenderit molestiae placeat
+            consectetur
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselControls" class="carousel slide mt-3" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/banner2.png" class="d-block w-100" alt="Primer slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/benner3.jpg" class="d-block w-100" alt="Segundo slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner4.jpg" class="d-block w-100" alt="Tercer slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- <img src="images/banner.jpg" class="img-fluid mt-3" alt=""> -->
+    <div class="border-top d-flex flex-wrap">
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+          <span class="badge badge-pill badge-info" data-toggle="popover" title="Oferta" data-content="Habitacion para dos personas 3 noches 4 dias 50% descuento">oferta</span>
+        </div>
+        <img class="card-img-top" src="images/images.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 1</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+          <span class="badge badge-pill badge-danger data-toggle="popover" title="Oferta" data-content="Habitacion para dos personas 2 noches 4 dias 70% descuento"">Sale</span>
+        </div>
+        <img class="card-img-top" src="images/187027456.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title" data-toggle="tooltip" data-placement="top" title="Desayuno incluido!">Hotel numero 2
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+          <span class="badge badge-pill badge-danger">Sale</span>
+
+        </div>
+        <img class="card-img-top" src="images/129200126.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 3</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+          <span class="badge badge-pill badge-warning">ultimas</span>
+        </div>
+        <img class="card-img-top" src="images/162597648.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 4</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+        </div>
+        <img class="card-img-top" src="images/223830253.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 5</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+        </div>
+        <img class="card-img-top" src="images/29497610.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 6</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+        </div>
+        <img class="card-img-top" src="images/78562806.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 7</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+      <div class="card card-hotel m-2">
+        <div class="card-header">
+          Colombia
+        </div>
+        <img class="card-img-top" src="images/cab49292e6b8c45022642f07de4613b7.jpg" alt="">
+
+        <div class="card-body">
+          <h4 class="card-title">Hotel numero 8</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod fugit et,
+            obcaecati laborum sint
+            perspiciatis eligendi alias.</p>
+        </div>
+        <button class="b btn-primary btn-reserva" data-toggle="modal" data-target="#contacto" id="contactoBtn"><span
+            class="oi oi-check"></span>Reservar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex justify-content-center align-items-center">
+        <ul class="d-flex">
+          <li>
+            <a class="nav-link" href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a class="nav-link" href=""><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a class="nav-link" href=""><i class="fab fa-instagram"></i></a>
+          </li>
+          <li><a class="nav-link" href=""><i class="fab fa-linkedin"></i></li></a>
+        </ul>
+      </div>
+      <div class="col-sm-4 justify-content-center d-flex">
+        <address>
+          <h3>Oficina central</h3>
+          <p><span class="oi oi-home footer-adress-icon"></span>Robledo Calle 68, Medellin Colombia</p>
+          <p><span class="oi oi-phone footer-adress-icon"></span>+573146582041</p>
+          <p><span class="oi oi-inbox footer-adress-icon"></span>correo@correo.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center align-items-center">
+        <a href="">Nosotros</a>
+        <a href="">Precios</a>
+        <a href="">Terminos y condiciones</a>
+        <a href="">Contacto</a>
+      </div>
+  </footer>
+
+  <div class="modal fade modal-form" id="contacto" role="dialog" tabindex="-1" aria-labelledby="modalForm"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalForm">Reserva hotel</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="fechaLLegada">Fecha llegada</label>
+                <input type="text" class="form-control" id="fechaLLegada" placeholder="dd/mm/yyyy">
+              </div>
+              <div class="form-group col-6">
+                <label for="fechaSalida">Fecha salida</label>
+                <input type="text" class="form-control" id="fechaSalida" placeholder="dd/mm/yyyy">
+              </div>
+
+            </div>
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="destino">Destino</label>
+                <input type="text" class="form-control" id="destino" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-group col-6">
+                <label class="mr-sm-2" for="habitacion">Habitaciones</label>
+                <select class="custom-select mr-sm-2" id="habitacion">
+                  <option selected>Selecciona...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="menor">Menores (0-17)</label>
+                <select id="menor" class="form-control">
+                  <option selected>Selecciona...</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="adulto">Adultos</label>
+                <select id="adulto" class="form-control">
+                  <option selected>Selecciona...</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="terminos">
+                  <label class="custom-control-label" for="terminos">Acepto terminos y condiciones</label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
+  <script src="dist/index.js"></script>
+
+</body>
+
+</html>
